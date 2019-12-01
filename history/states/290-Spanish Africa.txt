@@ -1,0 +1,36 @@
+# North-Africa - Morocco - North Morocco Tip - Morocco - MOR
+state={
+	id=290
+	name="STATE_290"
+	manpower = 7440
+	
+	
+	state_category = rural
+	
+	resources={
+		steel=15 # was: 20
+	}
+
+	history={
+		1356.1.1 = {
+			owner = MOR
+			add_claim_by = MOR
+			add_core_of = MOR
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				12100 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = {
+			9945 5 
+		}
+	}	
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+}

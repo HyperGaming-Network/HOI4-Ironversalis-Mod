@@ -1,0 +1,26 @@
+# Europe - Lithuania - Lithuania - Lithuania - LIT
+state={
+	id=93
+	name="STATE_93"
+	manpower=19856
+
+	state_category=town
+
+	history={
+		1356.1.1 = {
+			owner = LIT
+			add_claim_by = LIT
+			add_core_of = LIT
+
+			buildings = {
+				infrastructure = 2
+			}
+		}
+		victory_points = { 6557 1 }
+	}
+
+	provinces={
+		422 474 513 572 3412 6435 6520 6557 11441 11543 
+	}
+	buildings_max_level_factor=1.000
+}

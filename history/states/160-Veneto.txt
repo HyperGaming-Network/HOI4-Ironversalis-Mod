@@ -1,0 +1,39 @@
+# Europe - Italy - Venice - Venice - VNC
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		steel=20 # was: 32.000
+		aluminium=11 # was: 18.000
+	}
+	
+	state_category = large_city
+
+	history={
+		1356.1.1 = {
+			owner = VNC
+			add_claim_by = VNC
+			add_core_of = VNC
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard = 1
+				11584 = {
+					naval_base = 3
+					coastal_bunker = 2
+				}
+			}
+		}
+		victory_points = {
+			11584 10 
+		}
+	}
+
+	provinces={
+		603 628 3604 3657 6656 9582 9613 11584 
+	}
+	manpower=3963151
+	buildings_max_level_factor=1.000
+}

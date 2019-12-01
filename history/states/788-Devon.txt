@@ -1,0 +1,24 @@
+state= {
+	id=788
+	name="STATE_DEVON"
+	manpower = 122101
+	
+	state_category = rural
+
+	history={
+		1356.1.1 = {
+			owner = EGL
+			#add_claim_by = EGL
+			add_core_of = EGL
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+		}
+	}
+
+	provinces= {
+		3463 9562 3422
+ 	}
+}

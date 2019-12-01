@@ -1,0 +1,38 @@
+# Europe - France - Aquitaine - Aquitaine - AQU
+state={
+	id=19
+	name="STATE_19"
+	manpower = 134040
+	resources={
+		steel=25 # was: 40
+		aluminium=11 # was: 18
+	}
+	
+	state_category = city
+
+	history={
+		1356.1.1 = {
+			owner = AQU
+			add_claim_by = AQU
+			add_core_of = AQU
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard = 1
+				9737 = {
+					naval_base = 1
+					coastal_bunker = 1
+				}
+			}
+		}
+		victory_points = {
+			9737 20
+		}
+	}
+
+	provinces={
+		743 6621 6762 6777 9710 9737 11565 
+	}
+}

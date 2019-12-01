@@ -1,0 +1,109 @@
+﻿# Custom - England
+capital = 126
+
+set_oob = "EGL_1356"
+
+set_research_slots = 2
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+if = {
+	limit = {
+		has_start_date < 1356.01.02
+	}
+
+	set_autonomy = {
+		target = AQU #Aquitaine
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+}
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1312.11.13"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Edward III of House Plantagenet"
+		desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+		picture = "Portrait_England_Edward_III_Plantagenet.dds"
+		expire = "1377.6.21"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "EGL_1356"
+
+	set_technology = {
+
+	}
+
+	create_faction = English
+	add_to_faction = NAV
+
+	create_field_marshal = {
+		name = "John Chandos" # Aristocrat
+		id = 997
+		picture = "Portrait_Britain_Alan_Brooke.dds"
+		traits = { defensive_doctrine trait_cautious career_officer }
+		skill = 5
+		attack_skill = 4
+		defense_skill = 4
+		planning_skill = 3
+		logistics_skill = 3
+	}
+
+	create_corps_commander = {
+		name = "Jean de Grailly"
+		picture = "Portrait_Britain_Claude_Auchinleck.dds"
+		traits = { inflexible_strategist career_officer }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 5
+	}
+	create_corps_commander = {
+		name = "Robert Knolles"
+		picture = "Portrait_Britain_Claude_Auchinleck.dds"
+		traits = { inflexible_strategist career_officer }
+		skill = 5
+		attack_skill = 3
+		defense_skill = 5
+		planning_skill = 3
+		logistics_skill = 5
+	}
+}
+
+	create_country_leader = {
+		name = "Richard II Plantagenet"
+		desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+		picture = "Portrait_England_Edward_III_Plantagenet.dds"
+		expire = "1399.10.13"
+		ideology = feudal_monarchy
+		traits = {
+
+		}
+	}

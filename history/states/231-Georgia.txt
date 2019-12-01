@@ -1,0 +1,34 @@
+# Europe - Med - Georgia - Georgia - GEO
+state={
+	id=231
+	name="STATE_231"
+	manpower=294941
+
+	state_category=town
+
+	history={
+		1356.1.1 = {
+			owner = GEO
+			add_claim_by = GEO
+			add_core_of = GEO
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 2
+				3653 = {
+					naval_base = 2
+					coastal_bunker = 1
+				}
+			}
+		}
+		victory_points = { 1599 5 }
+		victory_points = { 3653 3 }
+	}
+
+	provinces={
+		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 
+	}
+
+	buildings_max_level_factor=1.000
+}

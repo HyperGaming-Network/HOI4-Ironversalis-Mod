@@ -1,0 +1,28 @@
+# Europe - Slovenia - Croatia - Slovenia - CRO
+state={
+	id=102
+	name="STATE_102"
+	manpower = 11443
+	
+	state_category = large_town
+
+	history={
+		1356.1.1 = {
+			owner = CRO
+			add_claim_by = CRO
+			add_core_of = CRO
+			add_core_of = SLV
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = {
+			9627 3 
+		}
+	}
+	
+	provinces={
+		596 665 3631 3654 6650 6672 9596 9627 }
+	}

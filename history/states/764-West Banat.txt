@@ -1,0 +1,27 @@
+# Europe - Serbia - West Banat - Sebia - SER
+state={
+	id=764
+	name="STATE_764"
+	manpower = 5855
+	state_category = rural
+
+	history={
+		1356.1.1 = {
+			owner = SER
+			add_claim_by = SER
+			add_core_of = SER
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = {
+			3882 5
+		}
+	}
+
+	provinces={
+		614 3614 6643 11787
+	}
+}

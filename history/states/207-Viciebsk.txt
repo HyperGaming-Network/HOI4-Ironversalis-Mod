@@ -1,0 +1,26 @@
+# Europe - West Russia - Lithuania - Lithuania - LIT
+state={
+	id=207
+	name="STATE_207"
+	manpower =  121785
+	
+	state_category = town
+
+	history={
+		1356.1.1 = {
+			owner = LIT
+			add_core_of = LIT
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				arms_factory = 1
+			}
+		}
+		victory_points = { 11241 5 }
+	}
+
+	provinces={
+		323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 
+	}
+}

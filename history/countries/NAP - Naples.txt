@@ -1,0 +1,57 @@
+﻿# Custom - Naples
+capital = 19
+
+set_oob = "NAP_1356"
+
+set_research_slots = 2
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_autonomy = {
+		target = PRO #Provence
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.4
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1343.1.20"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Joanna I d'Anjou"
+		desc = "POLITICS_NAP_Joanna_de_Anjou_DESC"
+		picture = "Portrait_Naples_Joanna_I_Anjou.dds"
+		expire = "1382.7.27"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "NAP_1356"
+
+	set_technology = {
+
+	}
+}

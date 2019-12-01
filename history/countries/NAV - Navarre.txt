@@ -1,0 +1,51 @@
+﻿# Custom - Navarre
+capital = 126
+
+set_oob = "NAV_1356"
+
+set_research_slots = 1
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1319.9.5"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Charles II le Mauvais"
+		desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+		picture = "Portrait_Navarre_Charles_II_le_Mauvais.dds"
+		expire = "1387.1.1"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "NAV_1356"
+
+	set_technology = {
+
+	}
+}

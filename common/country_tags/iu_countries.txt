@@ -1,0 +1,101 @@
+#
+# British Isles
+#
+
+EGL = "countries/England.txt"
+
+#
+# Ireland
+#
+
+#
+# France
+#
+
+AQU = "countries/Aquitaine.txt"
+BUR = "countries/Burgundy.txt"
+LOR = "countries/Lorraine.txt"
+PRO = "countries/Provence.txt"
+SAV = "countries/Savoy.txt"
+FOX = "countries/Foix.txt"
+ANJ = "countries/Valois-Anjou.txt"
+AUV = "countries/Auvergne.txt"
+DAL = "countries/Albret.txt"
+MNF = "countries/Montfort.txt"
+BLO = "countries/Blois.txt"
+
+BRI = "countries/Brittany.txt"
+
+#
+# Czech/Silsea
+#
+
+BOH = "countries/Bohemia.txt"
+MRV = "countries/Moravia.txt"
+
+#
+# Germany - Austria
+#
+
+TIR = "countries/Tyrol.txt"
+
+#
+# Germany - South
+#
+
+WUR = "countries/Wurttenberg.txt"
+
+#
+# Germany - North
+#
+
+BDB = "countries/Brandenburg.txt"
+HES = "countries/Hessen.txt"
+THU = "countries/Thuringia.txt"
+SCH = "countries/Schleswig.txt"
+
+#
+# Germany - Teutonic order
+#
+
+TEU = "countries/TeutonicOrder.txt"
+
+#
+# Spain
+#
+
+ARA = "countries/Aragon.txt"
+CAS = "countries/Castille.txt"
+GRA = "countries/Granada.txt"
+NAV = "countries/Navarre.txt"
+
+#
+# Italy - North
+#
+NAP = "countries/Naples.txt"
+VNC = "countries/Venice.txt"
+
+#
+# Greece
+#
+BYZ = "countries/Byzantium.txt"
+
+#
+# Western Hordes
+#
+WHI = "countries/WhiteHorde.txt"
+
+#
+# Russia
+#
+KIE = "countries/Kiev.txt"
+SMO = "countries/Smolensk.txt"
+PSK = "countries/Pskov.txt"
+NOV = "countries/Novogrod.txt"
+
+#
+# Holland
+#
+BRB = "countries/Brabant.txt"
+FLA = "countries/Flanders.txt"
+FRI = "countries/Friesland.txt"

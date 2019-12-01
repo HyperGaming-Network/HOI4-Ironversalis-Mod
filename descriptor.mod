@@ -1,0 +1,18 @@
+version="1.0"
+tags={
+	"Alternative History"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"National Focuses"
+	"Technologies"
+	"Sound"
+	"Military"
+	"Ideologies"
+	"Graphics"
+	"Fixes"
+}
+name="Ironversalis"
+path="C:/Users/balis/OneDrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/Ironversalis"
+remote_file_id="1917447023"

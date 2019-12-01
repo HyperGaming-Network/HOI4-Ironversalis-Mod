@@ -1,0 +1,30 @@
+# Europe - Belgium/Holand - Brabant - Brabant - BRB
+state={
+	id=35
+	name="STATE_35"
+	manpower=144900
+
+	state_category=city
+
+	history={
+		1356.1.1 = {
+			owner = BRB
+			add_core_of = BRB
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard = 1
+			}
+		}
+		victory_points = { 3262 5 }
+		victory_points = { 6496 3 }
+		victory_points = { 11562 1 }
+	}
+
+	provinces={
+		480 3262 6496 6500 9431 11456 11562 
+	}
+	buildings_max_level_factor=1.000
+}

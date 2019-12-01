@@ -1,0 +1,24 @@
+state= {
+	id=123
+	name="STATE_123"
+	manpower = 122101
+	
+	state_category = town
+
+	history={
+		1356.1.1 = {
+			owner = EGL
+			#add_claim_by = EGL
+			add_core_of = EGL
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+		}
+	}
+
+	provinces= {
+		540 6526 11406
+ 	}
+}

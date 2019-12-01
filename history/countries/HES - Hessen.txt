@@ -1,0 +1,51 @@
+﻿# Custom - Hessen
+capital = 16
+
+set_oob = "HES_1356"
+
+set_research_slots = 1
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1328.11.7"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Heinrich II von Hessen"
+		desc = "POLITICS_HES_Albrecht_II_Habsburg_DESC"
+		picture = "Portrait_HEStria_Albrecht_II_Habsburg.dds"
+		expire = "1366.1.1"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "HES_1356"
+
+	set_technology = {
+
+	}
+}

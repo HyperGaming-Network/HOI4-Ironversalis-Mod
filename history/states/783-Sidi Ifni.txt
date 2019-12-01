@@ -1,0 +1,28 @@
+# North-Africa - Morocco - Sidi ifni - Morocco - MOR
+state={
+	id=783
+	name="STATE_783" # Sidi Ifni
+	manpower = 4104
+	
+	state_category = pastoral
+
+	history={
+		1356.1.1 = {
+			owner = MOR
+			add_claim_by = MOR
+			add_core_of = MOR
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				12857 = {
+					naval_base = 1
+				}
+			}
+		}
+	}
+
+	provinces={
+		12857
+	}
+}

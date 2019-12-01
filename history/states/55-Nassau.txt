@@ -1,0 +1,26 @@
+# Europe - Germany - Hessen - Hesse - HES
+state={
+	id=55
+	name="STATE_55"
+	manpower = 379823
+
+	state_category = large_city
+
+	history={
+		1356.1.1 = {
+			owner = HES
+			add_claim_by = HES
+			add_core_of = HES
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 1
+			}
+		}
+		victory_points = { 6488 20.0 }
+		victory_points = { 564 3 }
+	}
+
+	provinces={ 564 589 3397 3524 3574 6444 6488 6549 9486 9524 9547 11445 11533 11560 }
+}

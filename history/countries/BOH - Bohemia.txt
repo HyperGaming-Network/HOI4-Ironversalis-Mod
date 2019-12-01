@@ -1,0 +1,57 @@
+﻿# Custom - Bohemia
+capital = 19
+
+set_oob = "BOH_1356"
+
+set_research_slots = 2
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_autonomy = {
+		target = MRV #Moravia
+		autonomous_state = autonomy_integrated_puppet
+		freedom_level = 0.4
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1346.8.26"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Karl IV von Luxemburg"
+		desc = "POLITICS_BOH_Karl_IV_Luxemburg_DESC"
+		picture = "Portrait_Bohemia_Karl_IV_Luxemburg.dds"
+		expire = "1378.11.29"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "BOH_1356"
+
+	set_technology = {
+
+	}
+}

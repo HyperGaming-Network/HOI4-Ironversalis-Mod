@@ -1,0 +1,26 @@
+# Europe - Hungary - Ruthenia - Hungary - HUN
+state={
+	id=73
+	name="STATE_73"
+	manpower = 85430
+	
+	state_category = rural
+
+	history={
+		1356.1.1 = {
+			owner = HUN
+			add_core_of = HUN
+			add_core_of = SLO
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = { 3548 1  }
+	}
+
+	provinces={
+		3548 6571 9563 11536 11691 
+	}
+}

@@ -1,0 +1,54 @@
+﻿capital = 41
+
+set_oob = "CAS_1356"
+
+set_research_slots = 2
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1312.11.13"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Pedro I 'Peter' de Castilian House of Ivrea"
+		desc = "POLITICS_CAS_Pedro_I_Ivrea_DESC"
+		picture = "Portrait_Castile_Peter_I_Castile.dds"
+		expire = "1369.3.14"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "CAS_1356"
+
+	set_technology = {
+
+	}
+
+	create_faction = Spanish
+	#add_to_faction = NAV
+
+}

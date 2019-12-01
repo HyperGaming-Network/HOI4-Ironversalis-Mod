@@ -1,0 +1,30 @@
+# Europe - Serbia - Vojvodina - Sebia - SER
+state={
+	id=45
+	name="STATE_45"
+	manpower=8386
+
+	state_category=town
+
+	history={
+		1356.1.1 = {
+			owner = SER
+			add_claim_by = SER
+			add_core_of = SER
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = {
+			3882 5
+		}
+	}
+
+	provinces={
+		619 3617 3623 9608 9621
+	}
+	
+	buildings_max_level_factor=1.000
+}

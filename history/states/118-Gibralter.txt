@@ -1,0 +1,30 @@
+# Europe - Spain - Gibraltar - Cast  - CAS
+state={
+	id=118
+	name="STATE_118"
+	manpower=21370
+	
+	state_category = enclave
+
+	history={
+		1356.1.1 = {
+			owner = CAS
+			add_claim_by = CAS
+			add_core_of = CAS
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				4135 = {
+					naval_base = 1
+					coastal_bunker = 1
+				}
+			}
+
+		}
+	}
+
+	provinces={
+		4135
+	}
+}

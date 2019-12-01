@@ -1,0 +1,41 @@
+# Europe - Holand - Holand - Holand - HOL
+state={
+	id=7
+	name="STATE_7"
+	manpower=412300
+
+	state_category=city
+	
+	resources={
+		steel=4.000
+	}
+
+	history={
+		1356.1.1 = {
+			owner = HOL
+			add_core_of = HOL
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard = 1
+
+				3314 = {
+					naval_base = 1
+				}
+				9498 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = { 391 40 }
+		victory_points = { 3211 10 }
+		victory_points = { 9498 20 }
+	}
+
+	provinces={
+		68 391 3211 3314 9498 
+	}
+	buildings_max_level_factor=1.000
+}

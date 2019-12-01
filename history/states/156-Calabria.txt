@@ -1,0 +1,32 @@
+# Europe - Italy - Calabria - Naples - NAP
+state={
+	id=156
+	name="STATE_156"
+	manpower = 2966315
+	
+	state_category = city
+
+	history={
+		1356.1.1 = {
+			owner = NAP
+			add_core_of = NAP
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 1
+				11837 = {
+					naval_base = 1
+				}
+				11998 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = { 11837 15 }
+	}
+
+	provinces={
+		3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+	}
+}

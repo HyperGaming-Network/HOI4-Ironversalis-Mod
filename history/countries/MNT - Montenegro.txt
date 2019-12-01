@@ -1,0 +1,51 @@
+﻿# Custom - Aquitaine
+capital = 19
+
+set_oob = "MON_1356"
+
+set_research_slots = 1
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1312.11.13"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Edward III of House Plantagenet"
+		desc = "POLITICS_MON_Edouard_de_Plantagenet_DESC"
+		picture = "Portrait_England_Edward_III_Plantagenet.dds"
+		expire = "1377.6.21"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "MON_1356"
+
+	set_technology = {
+
+	}
+}

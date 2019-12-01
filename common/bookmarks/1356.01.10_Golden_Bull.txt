@@ -1,0 +1,109 @@
+bookmarks = {
+	bookmark = {
+		name = "GOLDEN_BULL_NAME"
+		desc = "GOLDEN_BULL_DESC"
+		date = 1356.12.25.12
+		picture = "GFX_select_date_1356"
+		default_country = "EGL"
+		default = yes
+		
+		"FRA"={
+			history = "FRA_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"EGL"={
+			history = "ENG_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"BOH"={
+			history = "GER_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"HUN"={
+			history = "HUN_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = { }
+			focuses = {
+			}
+		}
+		"POL"={
+			history = "POL_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"CAS"={
+			history = "CAS_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+		"ARA"={
+			history = "ARA_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+				
+			}
+			focuses = {
+
+			}
+		}
+
+		"---"={
+			history = "OTHER_GOLDEN_BULL_DESC"
+		}
+
+
+		# minors from DLC ####
+
+		"HOL"={
+			minor = yes
+			history = "HOL_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"BUR"={
+			minor = yes
+			history = "BUR_GOLDEN_BULL_DESC"
+			ideology = monarchy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

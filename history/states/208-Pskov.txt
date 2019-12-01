@@ -1,0 +1,27 @@
+# Europe - West Russia - Pskov - Pskov - PSK
+state={
+	id=208
+	name="STATE_208" # Luga
+	manpower = 34181
+	
+	state_category = rural
+
+	history={
+		1356.1.1 = {
+			owner = PSK
+			add_core_of = PSK
+			add_core_of = LIT
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			}
+		}
+		victory_points = { 9098 1 }
+	}
+
+	provinces={
+		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 
+	}
+}

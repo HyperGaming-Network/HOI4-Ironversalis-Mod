@@ -1,0 +1,25 @@
+# Europe - Crimea - Rivne - White Horde - WHI
+state={
+	id=200
+	name="STATE_200" # Zaporozhe
+	manpower = 129408
+	state_category = town
+
+	history={
+		1356.1.1 = {
+			owner = WHI
+			add_claim_by = WHI
+			add_core_of = UKR
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = { 11405 1 }
+	}
+
+	provinces={
+		429 588 3399 3767 6596 9571 9729 11405 11700 
+	}
+}

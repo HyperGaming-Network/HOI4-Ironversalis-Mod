@@ -1,0 +1,27 @@
+# Europe - Germany - Brandenburg - Brandenburg - BDG
+state={
+	id=64
+	name="STATE_64"
+	manpower = 726502
+	buildings_max_level_factor = 1
+
+	state_category = megalopolis
+
+	history={
+		1356.1.1 = {
+			owner = BDB
+			add_claim_by = BDB
+			add_core_of = BDB
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			}
+		}
+		victory_points = { 6521 50 }
+		victory_points = { 3522 5 }
+	}
+
+	provinces={ 375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 }
+}

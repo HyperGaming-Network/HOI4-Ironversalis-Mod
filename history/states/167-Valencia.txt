@@ -1,0 +1,27 @@
+# Europe - Spain - Valencia - Aragon - ARA
+state={
+	id=167
+	name="STATE_167"
+	manpower = 197920
+	
+	state_category = town
+
+	history={
+		1356.1.1 = {
+			owner = ARA
+			add_claim_by = ARA
+			add_core_of = ARA
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+		}
+		victory_points = { 6906 5 }
+		victory_points = { 4098 1 }
+	}
+
+	provinces={
+		962 3799 3873 4098 6817 6856 6906 6959 9889 9896 
+	}
+}

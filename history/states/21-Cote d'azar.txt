@@ -1,0 +1,39 @@
+# Europe - France - Province - Province - PRO
+state={
+	id=21
+	name="STATE_21" # Provence
+	manpower = 206040
+	resources={
+		aluminium=60 # was: 120
+	}
+
+	state_category = city
+
+	history={
+		1356.1.1 = {
+			owner = PRO
+			add_claim_by = PRO
+			add_core_of = PRO
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				dockyard = 1
+				arms_factory = 2
+
+				911 = {
+					naval_base = 1
+					coastal_bunker = 1
+				}
+				11834 = {
+					naval_base = 1
+					coastal_bunker = 1
+				}
+			}
+		}
+		victory_points = { 911 1 }
+		victory_points = { 11834 10 }
+	}
+
+	provinces={ 911 956 958 3762 3928 11834 11849 11875 }
+}

@@ -1,0 +1,29 @@
+# Europe - Italy - Dalmatia-Zara - Venice - VNC
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 10000
+	
+	state_category = enclave
+	
+	history={
+		1356.1.1 = {
+			owner = VNC
+			add_claim_by = VNC
+			add_core_of = VNC
+			add_core_of = CRO
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				3943 = {
+					naval_base = 1
+				}
+			}
+		}
+		#victory_points = { 6626 1  }
+	}
+
+	provinces={	3943 }
+}

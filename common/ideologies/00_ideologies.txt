@@ -1,0 +1,268 @@
+ideologies = {
+	#IMPORTANT: apparently when you add/modify the subideologies here you also need to modify them in common/ideas/zzz_generic.txt
+	#important video needed to understand this file: https://www.youtube.com/watch?v=LytpbjYthxI
+	
+	monarchy = {
+	
+		types = {
+			
+			despotic_monarchy = {
+			}
+		
+			feudal_monarchy = {
+			}
+		
+			noble_republic = {
+			}
+			
+			administrative_monarchy = {
+			}
+			
+			constitutional_monarchy = {
+			}
+			
+			enlightened_despotism = {
+			}
+			
+			revolutionary_empire = {
+			}
+			
+			celestial_empire = {
+			}
+			
+			shogunate = {
+			}
+			
+			daimyo = {
+			}
+			
+			independent_daimyo = {
+			}
+			
+			elective_monarchy = {
+			}
+			
+			iqta = {
+			}
+			
+			english_monarchy = {
+			}
+			
+			ottoman_government = {
+			}
+			
+			prussian_monarchy = {
+			}
+			
+			russian_principality = {
+			}
+			
+			tsardom = {
+			}
+			
+			mamluk_government = {
+			}
+			
+			feudal_theocracy = {
+			}
+		}
+		
+		color = { 112 33 112 }
+		
+		rules = {
+		
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		
+		}
+		ai_democratic = yes 
+	}
+
+
+	republic = {
+		
+		types = {
+		
+			merchant_republic = {
+			}
+			
+			oligarchic_republic = {
+			}
+			
+			administrative_republic = {
+			}
+			
+			republican_dictatorship = {
+			}
+			
+			constitutional_republic = {
+			}
+			
+			bureaucratic_despotism = {
+			}
+			
+			revolutionary_republic = {
+			}
+			
+			ambrosian_republic = {
+			}
+			
+			dutch_republic = {
+			}
+			
+			free_city = {
+			}
+			
+			trading_city = {
+			}
+			
+			peasants_republic = {
+			}
+			
+			veche_republic = {
+			}
+			
+			american_republic = {
+			}
+			
+			federal_republic = {
+			}
+			
+			colonial_government = {
+			}
+		}
+		
+		color = { 5 115 5 }
+		
+		war_impact_on_world_tension = 0.75		
+		faction_impact_on_world_tension = 0.5
+		
+		ai_communist = yes 
+		
+		rules = {
+		
+		}
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+			
+		}
+
+	}
+
+	theocracy = {
+	
+		types = {
+		
+			papacy = {
+			}
+			
+			theocracy_ideology = {
+			}
+			
+			monastic_order = {
+			}
+			
+		}
+		
+		color = { 255 166 48 }
+		
+		war_impact_on_world_tension = 1.0	
+		faction_impact_on_world_tension = 1.0
+		
+		rules = {
+		
+		}
+		
+		modifiers = {
+		
+		}
+
+		ai_fascist = yes
+	}
+	
+	tribe = {
+	
+		types = {
+		
+			democracy  = {
+			}
+			
+			despotism  = {
+			}
+			
+			federation = {
+			}
+			
+			monarchy = {
+			}
+		}
+		
+		color = { 124 124 124 }
+		
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+		
+		}
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		ai_neutral = yes 
+	}
+	
+	steppe = {
+	
+		types = {
+		
+			steppe_nomads  = {
+			}
+			
+		}
+		
+		color = { 161 102 0 }
+		
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+		
+		}
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		ai_neutral = yes  
+	}
+}
+
+### EOF ###

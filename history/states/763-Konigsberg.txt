@@ -1,0 +1,33 @@
+
+state={
+	id=763
+	name="STATE_763"
+	manpower = 214023
+	state_category = city
+
+	history={
+		1356.1.1 = {
+			owner = TEU
+			add_core_of = TEU
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 1
+				6332 = {
+					bunker = 1
+				}
+				6332 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = {
+			6332 10
+		}
+	}
+
+	provinces={
+		281 348 395 3384 6332 11265
+	}
+}

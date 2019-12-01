@@ -1,0 +1,26 @@
+# Europe - Crimea - Voroshilovgrad - White Horde - WHI
+state={
+	id=228
+	name="STATE_228" # Voroshilovgrad
+	manpower = 21674
+	
+	state_category = town
+
+	history={
+		1356.1.1 = {
+			owner = WHI
+			add_claim_by = WHI
+			add_core_of = UKR
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+		}
+		victory_points = { 9461 1 }
+	}
+
+	provinces={
+		523 547 570 6505 6519 9446 9461 9476 11487 11513 
+	}
+}

@@ -1,0 +1,30 @@
+# Europe - Italy - Istria - Venice - VNC
+state={
+	id=736
+	name="STATE_736"
+	manpower=1063159
+	
+	state_category = city
+
+	history={
+		1356.1.1 = {
+			owner = VNC
+			add_claim_by = VNC
+			add_core_of = VNC
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+				6626 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = { 6626 1  }
+	}
+
+	provinces={ 599 6626 11595 11735 }
+
+	buildings_max_level_factor=1.000
+}

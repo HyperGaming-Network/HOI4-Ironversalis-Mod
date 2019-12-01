@@ -1,0 +1,35 @@
+# Europe - Med - Cypress - Cypress - CYP
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 347950
+	
+	state_category = rural
+	resources={
+		chromium=3 # was: 4
+	}
+
+	history={
+		1356.1.1 = {
+			owner = CYP
+			add_claim_by = CYP
+			add_core_of = CYP
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				7193 = {
+					naval_base = 1
+				}
+			}
+		}
+		victory_points = {
+			11984 5
+		}
+		victory_points = {
+			7193 3
+		}
+	}
+	
+	provinces= { 7193 11984 }
+}

@@ -1,0 +1,30 @@
+# Europe - Italy - Malta - Malta - MLT
+state=
+{
+	id=116
+	name="STATE_116"
+	manpower = 241620
+	state_category = small_island
+
+	history={
+		1356.1.1 = {
+			owner = MLT
+			add_claim_by = MLT
+			add_core_of = MLT
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				12003 = {
+					naval_base = 1
+					coastal_bunker = 1
+				}
+			}
+		}
+		victory_points = {
+			12003 5 
+		}
+	}
+
+	provinces= { 12003 }
+}

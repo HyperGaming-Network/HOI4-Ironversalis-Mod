@@ -1,0 +1,27 @@
+# Europe - Lithuania - Lithuania - Lithuania - LIT
+state={
+	id=96
+	name="STATE_96"
+	manpower = 72600
+	
+	state_category = rural
+
+	history={
+		1356.1.1 = {
+			owner = LIT
+			add_claim_by = LIT
+			add_core_of = LIT
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				#arms_factory = 1
+			}
+		}
+		victory_points = { 406 1 }
+	}
+	
+	provinces={
+		233 277 358 406 6340 9341 11391 
+	}
+}

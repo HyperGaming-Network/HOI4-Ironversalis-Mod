@@ -1,0 +1,51 @@
+﻿# Custom - Byzantium - BYZ
+capital = 19
+
+set_oob = "BYZ_1356"
+
+set_research_slots = 2
+
+set_stability = 0.6
+set_war_support = 0.1
+
+set_convoys = 10
+
+# DIPLOMACY
+
+1356.1.1 = {
+
+	add_political_power = 100
+	
+	add_ideas = {
+
+	}
+
+	set_politics = {
+		ruling_party = monarchy
+		last_election = "1354.12.4"
+		election_frequency = 0
+		elections_allowed = no
+	}
+	set_popularities = {
+		monarchy = 100
+	}
+
+	create_country_leader = {
+		name = "Ioánnes V Palaiológos"
+		desc = "POLITICS_BYZ_Edouard_de_Plantagenet_DESC"
+		picture = "Portrait_England_Edward_III_Plantagenet.dds"
+		expire = "1376.8.12"
+		ideology = feudal_monarchy
+		traits = {  }
+	}
+
+	complete_national_focus = limited_rearmament_focus
+
+	#give_guarantee = POL
+	
+	#set_oob = "BYZ_1356"
+
+	set_technology = {
+
+	}
+}
